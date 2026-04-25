@@ -1,0 +1,419 @@
+<html>
+<head>
+    <title>Portal de Psicología y Salud Mental</title>
+    
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3050/3050525.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: Azure; 
+            font-family: Verdana, sans-serif;
+            color: DarkSlateGray; 
+            font-size: 18px;
+            margin-left: 340px;
+            margin-right: 40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-family: Impact, charcoal, sans-serif;
+            color: MidnightBlue; 
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-family: Georgia, Times, serif;
+            color: DarkRed; 
+            border-bottom: 2px solid DarkRed;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            font-family: Georgia, Times, serif;
+            color: SaddleBrown;
+            margin-top: 25px;
+        }
+
+        .indice-lateral {
+            position: fixed;
+            top: 40px;
+            left: 20px;
+            width: 280px;
+            background-color: AliceBlue;
+            border: 2px double MidnightBlue;
+            padding: 20px;
+            box-sizing: border-box;
+            height: calc(100vh - 80px);
+            overflow-y: auto;
+            box-shadow: 2px 2px 10px LightGray;
+        }
+
+        .indice-lateral h3 {
+            border-bottom: 2px solid MidnightBlue;
+            text-align: center;
+            color: MidnightBlue;
+            font-size: 1.2em;
+        }
+
+        .contenedor-imagen {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        table {
+            background-color: White;
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px solid MidnightBlue;
+            margin: 20px 0;
+        }
+
+        th {
+            background-color: SteelBlue;
+            color: White;
+            font-family: Arial, sans-serif;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid LightGray;
+        }
+
+        a {
+            color: DodgerBlue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: Blue;
+        }
+
+        marquee {
+            background-color: MidnightBlue;
+            color: Yellow; 
+            font-weight: bold;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            font-size: 1.1em;
+        }
+
+        .cuadro-info {
+            background-color: White;
+            border: 1px solid LightGray;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .cita {
+            background-color: LightYellow;
+            border-left: 5px solid Gold;
+            padding: 15px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        .frase-box {
+            background-color: White;
+            border: 1px dashed MidnightBlue;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .subir-link {
+            display: block;
+            text-align: right;
+            font-size: 14px;
+            color: DimGray;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a name="top"></a>
+
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+        >>> EXPLORANDO LA MENTE HUMANA: Ciencia, Bienestar y Psicología Contemporánea 2026 | Alan Uriel Garcia Romero <<<
+    </marquee>
+
+    <h1>Portal de Psicología Aplicada</h1>
+
+    <div class="indice-lateral">
+        <h3>CONTENIDO</h3>
+        <ul style="list-style-type: '🧠'; padding-left: 20px; font-size: 15px;">
+            <li><a href="#intro">1. Introducción</a></li><br>
+            <li><a href="#que-es">2. ¿Qué es la Psicología?</a></li><br>
+            <li><a href="#corrientes">3. Corrientes Principales</a></li><br>
+            <li><a href="#frases">4. Reflexiones</a></li><br>
+            <li><a href="#ramas">5. Ramas de estudio</a></li><br>
+            <li><a href="#procesos">6. Procesos Cognitivos</a></li><br>
+            <li><a href="#salud">7. Salud Mental</a></li><br>
+            <li><a href="#terapia">8. Tipos de Terapia</a></li><br>
+            <li><a href="#emociones">9. Inteligencia Emocional</a></li><br>
+            <li><a href="#neuro">10. Neurociencia</a></li><br>
+            <li><a href="#trastornos">11. Trastornos comunes</a></li><br>
+            <li><a href="#futuro">12. Desafíos del Futuro</a></li><br>
+            <li><a href="#contacto">13. Consulta</a></li><br>
+            <li><a href="#recursos">14. Recursos PDF</a></li>
+        </ul>
+    </div>
+
+    <div class="contenedor-imagen">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Mente humana" width="500" style="border-radius: 15px; border: 5px solid MidnightBlue; margin: 20px 0;">
+        
+        <div style="background-color: WhiteSmoke; width: 60%; padding: 10px; border: 2px double MidnightBlue; margin: 0 auto;">
+            <font color="DarkBlue"><b>🧠 FRASE DEL DÍA:</b></font><br>
+            <font size="4"><i>"El hombre sufre más por lo que imagina que por lo que sucede."</i></font>
+        </div>
+        <p><i>"Conócete a ti mismo." - Sócrates</i></p>
+    </div>
+
+    <hr color="MidnightBlue" size="3">
+
+<a name="intro"></a>
+    <h2>1. Introducción</h2>
+    <p>
+        Este portal ha sido creado para estudiantes y personas interesadas en comprender los misterios del comportamiento humano. El objetivo es ofrecer una visión clara sobre cómo pensamos, sentimos y actuamos ante diversas situaciones de la vida.
+        La psicología no es solo el estudio de los trastornos, sino una herramienta fundamental para potenciar el bienestar personal y mejorar las relaciones interpersonales.
+    </p>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="que-es"></a>
+    <h2>2. ¿Qué es la Psicología?</h2>
+    <p>
+        La psicología es la ciencia que estudia los procesos mentales y el comportamiento del ser humano en relación con el medio ambiente físico y social que lo rodea. Combina la observación biológica con el análisis social.
+    </p>
+    <div class="cita">
+        <p>La psicología no es solo sobre salud mental; es sobre entender la experiencia humana en su totalidad.</p>
+    </div>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="corrientes"></a>
+    <h2>3. Corrientes Principales</h2>
+    <div class="cuadro-info">
+        <p><b>1. Psicoanálisis:</b> Enfocado en el inconsciente (Freud).</p>
+        <p><b>2. Conductismo:</b> Estudio de la conducta observable (Skinner).</p>
+        <p><b>3. Humanismo:</b> Se centra en la autorrealización (Maslow).</p>
+        <p><b>4. Cognitivismo:</b> Analiza cómo procesamos y almacenamos la información.</p>
+    </div>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="frases"></a>
+    <h2>4. Frases reflexivas</h2>
+    <p>La psicología también se trata de introspección. Aquí algunas ideas para cuestionar nuestra realidad:</p>
+    
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <div class="frase-box" style="flex: 1; min-width: 250px;">
+            <h3>🔹 Sobre Decisiones</h3>
+            <ul>
+                <li>"La duda también es una decisión."</li>
+                <li>"No elegir, también es elegir."</li>
+                <li>"El miedo decide por ti cuando tú no decides."</li>
+            </ul>
+        </div>
+        
+        <div class="frase-box" style="flex: 1; min-width: 250px;">
+            <h3>🔹 Sobre la Mente</h3>
+            <ul>
+                <li>"No vemos las cosas como son, las vemos como somos." — <i>Anaïs Nin</i></li>
+                <li>"El pensamiento crea la realidad que habitas."</li>
+                <li>"Te conviertes en lo que repites todos los días."</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <div class="frase-box" style="flex: 1; min-width: 250px;">
+            <h3>🔹 Sobre Emociones</h3>
+            <ul>
+                <li>"Lo que sientes no siempre es la realidad, pero siempre importa."</li>
+                <li>"Reprimir emociones no las elimina, las acumula."</li>
+                <li>"A veces no estás cansado, estás desmotivado."</li>
+            </ul>
+        </div>
+
+        <div class="frase-box" style="flex: 1; min-width: 250px;">
+            <h3>🔹 Sobre Crecimiento</h3>
+            <ul>
+                <li>"Quien tiene un por qué, puede soportar casi cualquier cómo." — <i>Nietzsche</i></li>
+                <li>"El cambio duele, pero quedarse igual duele más."</li>
+                <li>"A mi no me importa el dinero, me importa el dinero"</li>
+            </ul>
+        </div>
+    </div>
+    <a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="ramas"></a>
+    <h2>5. Ramas de estudio</h2>
+    <table>
+        <tr>
+            <th>Especialidad</th>
+            <th>Campo de Acción</th>
+        </tr>
+        <tr>
+            <td><b>P. Clínica</b></td>
+            <td>Tratamiento de trastornos mentales.</td>
+        </tr>
+        <tr>
+            <td><b>P. Educativa</b></td>
+            <td>Procesos de aprendizaje y enseñanza.</td>
+        </tr>
+        <tr>
+            <td><b>P. Organizacional</b></td>
+            <td>Comportamiento humano en el entorno laboral.</td>
+        </tr>
+        <tr>
+            <td><b>P. Social</b></td>
+            <td>Influencia de los grupos en el individuo.</td>
+        </tr>
+    </table>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="procesos"></a>
+    <h2>6. Procesos Cognitivos</h2>
+    <p>Son los mecanismos que el cerebro utiliza para procesar información:</p>
+    <ul>
+        <li><b>Percepción:</b> Interpretación de estímulos.</li>
+        <li><b>Atención:</b> Selección de información relevante.</li>
+        <li><b>Memoria:</b> Codificación y recuperación de datos.</li>
+    </ul>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="salud"></a>
+    <h2>7. Salud Mental</h2>
+    <p>Bienestar emocional que permite a las personas hacer frente al estrés de la vida.</p>
+    <center>
+        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" width="300" height="300" style="border-radius: 50%;">
+    </center>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="terapia"></a>
+    <h2>8. Tipos de Terapia</h2>
+    <p>Existen diferentes enfoques terapéuticos según la necesidad del paciente. Haz clic en los términos para conocer más:</p>
+    <div class="cuadro-info">
+        <ul>
+            <li><b>Terapia Cognitivo-Conductual (TCC):</b> <a href="https://www.apa.org/topics/behavioral-therapy" target="_blank">Enfoque práctico</a> para cambiar patrones de pensamiento negativos.</li><br>
+            <li><b>Terapia Gestalt:</b> Se centra en el "aquí y ahora" y en la responsabilidad personal.</li><br>
+            <li><b>Terapia Familiar:</b> Analiza las dinámicas de grupo y la comunicación dentro del núcleo familiar.</li>
+        </ul>
+    </div>
+    <a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="emociones"></a>
+    <h2>9. Inteligencia Emocional</h2>
+    <p>Capacidad de reconocer, entender y manejar nuestras propias emociones y las de los demás. Incluye:</p>
+    <table>
+        <tr>
+            <th>Componente</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td><b>Autoconciencia</b></td>
+            <td>Saber qué sentimos y por qué.</td>
+        </tr>
+        <tr>
+            <td><b>Autorregulación</b></td>
+            <td>Controlar impulsos y pensar antes de actuar.</td>
+        </tr>
+        <tr>
+            <td><b>Empatía</b></td>
+            <td>Comprender los sentimientos de los otros.</td>
+        </tr>
+        <tr>
+            <td><b>Habilidades Sociales</b></td>
+            <td>Manejar relaciones para mover a las personas en direcciones adecuadas.</td>
+        </tr>
+    </table>
+    <a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="neuro"></a>
+    <h2>10. Neurociencia y Psicobiología</h2>
+    <p>Estudio de cómo el cerebro y el sistema nervioso influyen en nuestro comportamiento.</p>
+    <h3>Neurotransmisores clave:</h3>
+    <ul>
+        <li><b>Dopamina:</b> Placer, motivación y recompensa.</li>
+        <li><b>Serotonina:</b> Regulación del estado de ánimo y sueño.</li>
+        <li><b>Oxitocina:</b> Vínculos sociales y confianza.</li>
+        <li><b>Cortisol:</b> La hormona del estrés.</li>
+    </ul>
+    <a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="trastornos"></a>
+    <h2>11. Trastornos comunes</h2>
+    <p>Es importante identificar las señales de alerta en los cuadros clínicos más frecuentes:</p>
+    <div class="cuadro-info" style="border-left: 10px solid Red;">
+        <p><b>Ansiedad:</b> Preocupación excesiva que interfiere con la vida diaria.</p>
+        <p><b>Depresión:</b> Estado de ánimo bajo persistente y pérdida de interés.</p>
+        <p><b>TDAH:</b> Dificultad para mantener la atención e hiperactividad.</p>
+    </div>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="futuro"></a>
+    <h2>12. Desafíos del Futuro</h2>
+    <p>La ciberpsicología y el impacto de la Inteligencia Artificial en el comportamiento humano son las nuevas fronteras.</p>
+<a href="#top" class="subir-link">[ ▲ Ir al inicio ]</a>
+
+    <a name="contacto"></a>
+    <div class="cuadro-info" style="border-top: 5px solid DodgerBlue; text-align: center; background-color: WhiteSmoke;">
+        <h3 style="border-bottom: none; margin-top: 0;">Contacto Académico</h3>
+        <p>Para consultas académicas o recursos sobre salud mental, puedes escribirme:</p>
+        <span style="font-size: 20px;">📧</span> 
+        <a href="mailto:laprovidencia.2320812032@cobaeh.edu.mx">laprovidencia.2320812032@cobaeh.edu.mx</a>
+        <p>O puedes visitar:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.2410423342626!2d-98.7363305!3d20.082208299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a73c3326837f%3A0x18dee3e6408078f0!2sPsic%C3%B3logo%20en%20Pachuca!5e0!3m2!1ses-419!2smx!4v1777116924389!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <a name="recursos"></a>
+    <h2>14. Recursos y Referencias Bibliográficas</h2>
+    <p>Para la elaboración de este portal y para profundizar en el estudio de la mente, se consultaron las siguientes fuentes de autoridad:</p>
+    
+    <ul>
+       <li><a href="https://www.apa.org" target="_blank">American Psychological Association (APA)</a>
+            <p><b>La fuente más confiable a nivel mundial para noticias y avances en investigación psicológica.</b></p>
+       </li>
+       <li><a href="https://www.who.int/es/news-room/fact-sheets/detail/mental-health-strengthening-our-response" target="_blank">OMS - Salud Mental</a>
+            <p><b>Datos globales, informes y recursos oficiales sobre el estado de la salud mental en el mundo.</b></p>
+       </li>
+       <li><a href="https://www.psicologia-online.com" target="_blank">Psicología-Online</a>
+            <p><b>Portal con artículos educativos, tests y guías prácticas sobre terapias y bienestar.</b></p>
+       </li>
+       <li><a href="https://bibliotecas.unam.mx/" target="_blank">Biblioteca Digital UNAM</a>
+            <p><b>Acceso a tesis y artículos académicos en PDF sobre psicología social y clínica.</b></p>
+       </li>
+    </ul>
+
+    <div class="cuadro-info" style="font-size: 14px; background-color: White; border: 1px solid Gray;">
+        <h3 style="font-size: 16px; margin-top: 0;">Referencias (Formato APA 7ma Edición):</h3>
+        <p>American Psychological Association. (2026). <i>Psychology topics</i>. https://www.apa.org</p>
+        <p>Organización Mundial de la Salud. (2022, 17 de junio). <i>Salud mental: fortalecer nuestra respuesta</i>. https://www.who.int/es/news-room/fact-sheets/detail/mental-health-strengthening-our-response</p>
+        <p>Psicología-Online. (2026). <i>Artículos de psicología y bienestar</i>. https://www.psicologia-online.com</p>
+        <p>Universidad Nacional Autónoma de México. (2026). <i>Biblioteca Digital UNAM</i>. https://bibliotecas.unam.mx/</p>
+    </div>
+
+    <hr color="MidnightBlue" size="3">
+    <center>
+        <p>
+            <font face="Courier New, monospace" size="2">
+                <b>Fecha de creación:</b> 19/04/2026 | <b>Última actualización:</b> 20/04/2026 <br>
+                Portal de Divulgación Psicológica | © 2026 <br>
+                <b>Elaborado por:</b> Alan Uriel Garcia Romero | <b>Grupo:</b> 6101 <br><br>
+                <a href="#top">▲ Volver al inicio ▲</a>
+            </font>
+        </p>
+    </center>
+</body>
+</html>
